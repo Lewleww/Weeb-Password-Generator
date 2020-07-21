@@ -48,11 +48,13 @@ h3 {
     margin-top: 75px;
     font-size: 2.5em;
 }
+
 #mascot {
     position: absolute;
     bottom: 0;
     right: 0;
     width: 300px;
+    height: auto;
 }
 
 footer {
@@ -73,6 +75,10 @@ footer {
         font-size: 1.5em;
     }
     input {
-        font-size: 1.2em;
+        font-size: 1.2e0m;
+    }
+    #mascot {
+        width: 150px;
+        height: auto;
     }
 }
